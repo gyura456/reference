@@ -1,0 +1,1 @@
+STMLIBINC += $(STMLIB)/devices/sensors/temperature/adt7410

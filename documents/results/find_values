@@ -1,0 +1,4 @@
+#!/bin/sh
+
+awk -f find_values.awk log2017_05_09_17_25_12_5kg.dat > max_values_and_reg_times.txt
+awk -f find_values.awk log2017_05_10_08_16_32_10kg.dat >> max_values_and_reg_times.txt

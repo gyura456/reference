@@ -1,0 +1,32 @@
+#!/usr/bin/gnuplot -persist
+set grid
+set yrange [0:120]
+set xrange [0:12000]
+set key right bottom
+set xlabel "t [s]"
+set ylabel "T [°C]"
+
+set arrow from 5451,0 to 5451,114 nohead lc rgb "black" dt 2
+set arrow from 0,40 to 5451,40 heads lc rgb "black"
+set label "Szabályozási idő 5kg: 5451 s" at 1400,45
+
+set arrow from 8288,0 to 8288,114 nohead lc rgb "black" dt 2
+set arrow from 0,30 to 8288,30 heads lc rgb "black"
+set label "Szabályozási idő 10kg: 8288 s" at 1400,35
+
+set arrow from 6417,0 to 6417,117.617 heads lc rgb "black"
+set label "Maxinum T 5kg : 117.617 °C" at 6300,50 rotate by 90
+
+set arrow from 9417,0 to 9417,116.859 heads lc rgb "black"
+set label "Maxinum T 10 kg: 116.859 °C" at 9300,50 rotate by 90
+
+
+
+plot "log2017_05_09_17_25_12_5kg.dat" u 1:2 w line  t "CH0 5kg",\
+"log2017_05_09_17_25_12_5kg.dat" u 1:3 w line t "CH1 5kg",\
+"log2017_05_09_17_25_12_5kg.dat" u 1:4 w line  t "CH2 5kg",\
+"log2017_05_10_08_16_32_10kg.dat" u 1:2 w line t "CH0 10kg",\
+"log2017_05_10_08_16_32_10kg.dat" u 1:3 w line t "CH1 10kg",\
+"log2017_05_10_08_16_32_10kg.dat" u 1:4 w line t "CH2 10kg",\
+114,\
+118

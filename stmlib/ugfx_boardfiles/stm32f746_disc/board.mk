@@ -1,0 +1,1 @@
+STMLIBINC += $(STMLIB)/ugfx_boardfiles/stm32f746_disc

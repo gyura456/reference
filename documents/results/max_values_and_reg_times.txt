@@ -1,0 +1,16 @@
+File: log2017_05_09_17_25_12_5kg.dat
+Total time: 9060 s
+Time of regulation CH0: 5357 s
+Time of regulation CH1: 5433 s
+Time of regulation CH2: 5451 s
+CH0 maximun temperature: 117.617 °C at 6417 s
+CH1 maximun temperature: 117.492 °C at 6435 s
+CH2 maximun temperature: 117.226 °C at 6492 s
+File: log2017_05_10_08_16_32_10kg.dat
+Total time: 11941 s
+Time of regulation CH0: 8137 s
+Time of regulation CH1: 8288 s
+Time of regulation CH2: 7845 s
+CH0 maximun temperature: 116.859 °C at 9417 s
+CH1 maximun temperature: 116.695 °C at 9423 s
+CH2 maximun temperature: 116.695 °C at 8795 s

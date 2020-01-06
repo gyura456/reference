@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="beeswax_sterilizer" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/app" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/app" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="appconf.h" />
+		<Unit filename="chconf.h" />
+		<Unit filename="ffconf.h" />
+		<Unit filename="gfxconf.h" />
+		<Unit filename="halconf.h" />
+		<Unit filename="help.mk" />
+		<Unit filename="include/cardhandler.h" />
+		<Unit filename="include/errorhandler.h" />
+		<Unit filename="include/gpiosetup.h" />
+		<Unit filename="include/lcdcontrol.h" />
+		<Unit filename="include/printer.h" />
+		<Unit filename="include/regulator.h" />
+		<Unit filename="include/sterilizer.h" />
+		<Unit filename="include/tempreader.h" />
+		<Unit filename="include/usbcfg.h" />
+		<Unit filename="mcuconf.h" />
+		<Unit filename="settings.mk" />
+		<Unit filename="src/cardhandler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/errorhandler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/gpiosetup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lcdcontrol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/printer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/regulator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sterilizer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tempreader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/usbcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stmlib_conf.h" />
+		<Unit filename="targets.mk" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

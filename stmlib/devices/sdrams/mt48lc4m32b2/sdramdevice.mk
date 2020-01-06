@@ -1,0 +1,1 @@
+STMLIBINC += $(STMLIB)/devices/sdrams/mt48lc4m32b2
